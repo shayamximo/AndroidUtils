@@ -1,0 +1,46 @@
+step 1: create hash key using (in C:\Program Files\Java\jre7\bin)
+	keytool -exportcert -alias my_key_alias -keystore "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\keys for publish\soho\soho.keystore" | "C:\Users\Shaya\Google Drive\mximo\temp\openssl\openssl-0.9.8k_X64\bin\openssl.exe" sha1 -binary | "C:\Users\Shaya\Google Drive\mximo\temp\openssl\openssl-0.9.8k_X64\bin\openssl.exe" base64
+
+step 2:
+	log to https://developers.facebook.com/
+		user name: davidmazor@yahoo.com	
+		pass: pnJ5ebzg
+
+step 3:
+	Apps -> create app and fill in details
+
+step 4: settings -> add platform -> android
+
+step 5: fill in details(look at other ready apps for examples) + "save changes"
+		package name
+		class name (com....MainActivity)
+		mark single sign in
+		contact email
+		Key hashes(from step 1)
+		
+step 6: 
+	Status + review:
+	
+	Do you want to make this app and all its live features available to the general public?
+		check  yes
+		
+step 7:
+	in strings.xml change app_id to what is says in APP ID on the site
+	
+step 8:
+   run the demo app(FaceShare in current Directory), and if you get annoying exception, go to logcat and look for
+	com.facebook.http.protocol.ApiException:
+	it will have the key hash to PUT ON THE SITE AS THE HASH INSTEAD OF THE ONE THAT IS ORIGINALLY THERE!@
+
+
+	
+KEYS: 
+	soho: 2kTie0jHT1lyHN1VpQY7x/XBEdc
+
+IF problems persist generating key
+	http://stackoverflow.com/questions/19485004/android-app-key-hash-doesnt-match-any-stored-key-hashes
+
+MESSUPS FROM EXPERIENCE:
+
+1. in lamaloli AND loveandpride there was no "=" in the end, so just added it.
+05MTpwUpi3qez715M6mU5HjKtm4=

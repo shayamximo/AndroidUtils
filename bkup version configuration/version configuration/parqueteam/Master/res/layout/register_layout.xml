@@ -1,0 +1,88 @@
+<com.parqueteam.CustomizedViews.LocalizedRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grid_outer_color"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scroll_view_checkout_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shipping_bg"
+        android:fadeScrollbars="true"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <com.parqueteam.CustomizedViews.LocalizedRelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grid_outer_color"
+            tools:context=".MainActivity" >
+
+            <include layout="@layout/top_bar" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/top_bar_top_layout"
+                android:layout_margin="8dp"
+                android:text="@string/sign_up_for_updates_and_benefits"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/edit_text_layout_in_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_sign_up"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/edit_text_layout_in_register"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#0f0"
+                android:gravity="center"
+                android:text="@string/sign_up"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.parqueteam.CustomizedViews.LocalizedLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/button_sign_up"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkbox_send_promo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:padding="0dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_weight="1"
+                    android:text="@string/confirm_sms_and_email"
+                    android:textColor="@color/black" />
+            </com.parqueteam.CustomizedViews.LocalizedLinearLayout>
+        </com.parqueteam.CustomizedViews.LocalizedRelativeLayout>
+    </ScrollView>
+
+</com.parqueteam.CustomizedViews.LocalizedRelativeLayout>

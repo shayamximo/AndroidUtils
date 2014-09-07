@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout_category_list_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grid_outer_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title_apps_list"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/please_select_an_app"
+        android:textColor="@color/gray_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/gray_for_divider" />
+
+    <AutoCompleteTextView
+        android:id="@+id/myautocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:completionThreshold="1"
+        android:hint="choose an app" />
+
+    <ListView
+        android:id="@+id/listview_apps_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:divider="@color/gray_for_divider"
+        android:dividerHeight="1dp"
+        android:scrollingCache="false" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_for_divider" />
+
+</LinearLayout>

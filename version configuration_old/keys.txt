@@ -1,0 +1,104 @@
+facebook:
+	soho: 254016211436164  
+
+	zer4u:471791449621277
+	
+	love and pride: 111401909019731
+	
+	parquetim: 1404855183112833
+	
+	lamaloli: 1438097906445200
+	
+	
+
+
+google 	:
+	
+	soho:
+		DEBUG KEY: AIzaSyCn9jg0xLVV-ZvOpjH4sMoYGFQ7iyi3nMg
+		RELEASE KEY: AIzaSyCTs3pvVhFwzo8MHB-rpCccHy1Bu0AYApc
+		
+	zer4u
+		RELEASE KEY: AIzaSyBWsEM7w1ISsWs1wS2Hj7UGHOk0Vh-iUlE
+	
+how to generate key:
+1. start windows as administator by going into search - > cmd -> ctrl shift enter
+keytool -genkey -v -keystore d:\my_private_key.keystore -alias my_key_alias -keyalg RSA -keysize 2048 -validity 10000
+
+*) C:\Program Files\Java\jre7\bin, is where the keystore is.
+actual key is in D:\ and the password is pnB5ebzg
+
+Creating key for google maps:
+1. go to https://code.google.com/apis/console/b/0/?noredirect#project:586725266671
+	
+zooz sandbox: d6e072d7-711f-477d-a0b5-827ab515ade4
+
+8. flurry key 
+	*) zer4u "VPV7FW5FBN4SKGGXXR5G"
+	*) soho  "GC9D2Z28JR7797FJNBS3"
+	*) love and pride JMMHGPWJFGR86FPD3QVG
+	*) parq RSVWJ9DCN39THHYG7X8V
+	*) btu GVD864KYNMMQF22WS4P9
+	*) lamaloli X8G4WC422747YSJ7GYTS
+	
+10. urban airship keys
+
+	zer4u:
+		developmentAppKey = 12OXcE24Tii_6kmzqHxU4g
+		developmentAppSecret = rYC6Thm-SYWQtJ6Z7a9fhA
+		productionAppKey = 12OXcE24Tii_6kmzqHxU4g
+		productionAppSecret = rYC6Thm-SYWQtJ6Z7a9fhA
+		
+	love and pride:
+		app key: xNdX8FekSPOwOQq61FFAQg
+		app secret: ioB4E8QAQ7ivEdQWXkNzNg
+		
+	parq:
+		app key: ACeghfrSStWNEtkhx4zeQg
+		app secret: VtRnNG6fTVCPqx9UEaa5Dw
+		
+	lamaloli:
+		UA App Key: x40cdeB3QteqV_uUtnncBg
+		App Secret: Q6EZJeeNSxmpo8QozsJfHA
+		
+		
+	btu:
+		developmentAppKey =  wPVse2cIS3WLT1VYzYTB4Q
+		developmentAppSecret = FsJSu7iLQx2GpHQ1sSDCLg
+		productionAppKey =  wPVse2cIS3WLT1VYzYTB4Q
+		productionAppSecret = FsJSu7iLQx2GpHQ1sSDCLg
+		
+zooz:
+
+	soho:
+		zooz_id=d6e072d7-711f-477d-a0b5-827ab515ade4
+		master_zooz_id=193d7d49-a8b8-48d2-a5b8-5a328dff37e6
+		
+		
+	love and pride: 
+		
+		zooz: c275698b-525c-4a41-b01f-171a43d89430
+		master: 597b8963-8fe3-40d8-aa55-a6a048e2f9cb
+		
+	lamaloli
+		zooz_id=358a25b9-7e9e-45ef-bc2f-578714856ecc
+		master_zooz_id=d053122a-410d-4cd6-baec-85b6ac7afb22
+		
+	BTU:
+		zooz_id: 71f4680f-1a27-4667-a95c-8a177ad7863d
+		master_zooz_id: 72b636c8-a8ae-41d0-8c2c-4eda2d9604be
+	
+	
+		
+package name:
+
+	love and pride: com.jvesoft.magazine.lovepride
+	btu: com.soa.btu
+	
+	
+google maps:
+
+	soho:
+		AIzaSyCTs3pvVhFwzo8MHB-rpCccHy1Bu0AYApc
+
+		

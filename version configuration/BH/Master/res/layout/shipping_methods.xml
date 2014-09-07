@@ -1,0 +1,372 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <include layout="@layout/top_bar" />
+
+    <ScrollView
+        android:id="@+id/scroll_view_shipping_method_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shipping_bg" >
+
+        <com.soa.bhc.CustomizedViews.LocalizedLinearLayout
+            android:id="@+id/layout_in_scrollview_shipping_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingBottom="40dp" >
+
+            <TextView
+                android:id="@+id/textview_shipping_method_id"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/shipping_method"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/payment_listview"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:divider="@color/transparent_color"
+                android:dividerHeight="1dp"
+                android:scrollingCache="false" >
+            </ListView>
+
+            <com.soa.bhc.CustomizedViews.LocalizedLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="12dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkbox_add_shipping_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:checked="false"
+                    android:padding="0dp" />
+
+                <TextView
+                    android:id="@+id/shipping_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/shipping_add_comments"
+                    android:textColor="@color/black" />
+            </com.soa.bhc.CustomizedViews.LocalizedLinearLayout>
+
+            <EditText
+                android:id="@+id/edittext_add_shipping_comments"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/white"
+                android:hint="@string/add_shipping_comments_hint"
+                android:paddingLeft="5dp"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <com.soa.bhc.CustomizedViews.LocalizedLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="12dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkbox_gift_wrapping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:checked="false"
+                    android:padding="0dp" />
+
+                <TextView
+                    android:id="@+id/shipping_gift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/shipping_gift_wrapping"
+                    android:textColor="@color/black" />
+            </com.soa.bhc.CustomizedViews.LocalizedLinearLayout>
+
+            <EditText
+                android:id="@+id/edittext_gift_wrapping"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/white"
+                android:hint="@string/add_gift_comments_hint"
+                android:paddingLeft="5dp"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/layout_of_donation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="15dp" >
+
+                <View
+                    android:id="@+id/view_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/gray_dark" />
+
+                <TextView
+                    android:id="@+id/donation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/view_top"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/transparent"
+                    android:text="@string/donation" />
+
+                <TextView
+                    android:id="@+id/donation_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/donation"
+                    android:layout_marginLeft="7dp"
+                    android:layout_toRightOf="@id/donation"
+                    android:background="@color/white"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="2dp" />
+
+                <TextView
+                    android:id="@+id/donation_explanation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/donation"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/transparent" />
+
+                <TextView
+                    android:id="@+id/organization_selection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/donation_explanation"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:padding="12dp"
+                    android:text="@string/donation_select_orginization" />
+
+                <View
+                    android:id="@+id/view_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/organization_selection"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/gray_dark" />
+            </RelativeLayout>
+
+            <com.soa.bhc.CustomizedViews.LocalizedLinearLayout
+                android:id="@+id/layout_of_coupon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edit_text_coupon"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:hint="@string/enter_coupon_code"
+                    android:padding="6dp"
+                    android:textColor="@color/gray_for_suggession"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/button_apply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="#e1bf81"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="6dp"
+                    android:text="@string/apply"
+                    android:textColor="@color/white" />
+            </com.soa.bhc.CustomizedViews.LocalizedLinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/shipping_order_summary"
+                android:textColor="@color/black" />
+
+            <com.soa.bhc.CustomizedViews.LocalizedRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/shipping_product_cost"
+                    android:textColor="@color/gray_for_suggession" />
+
+                <TextView
+                    android:id="@+id/textview_price_total_from_server"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/gray_for_suggession" />
+            </com.soa.bhc.CustomizedViews.LocalizedRelativeLayout>
+
+            <com.soa.bhc.CustomizedViews.LocalizedRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/shipping_shipping_cost"
+                    android:textColor="@color/gray_for_suggession" />
+
+                <TextView
+                    android:id="@+id/textview_shipping_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/gray_for_suggession" />
+            </com.soa.bhc.CustomizedViews.LocalizedRelativeLayout>
+
+            <com.soa.bhc.CustomizedViews.LocalizedRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/promotion"
+                    android:textColor="@color/gray_for_suggession" />
+
+                <TextView
+                    android:id="@+id/textview_promotion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/gray_for_suggession" />
+            </com.soa.bhc.CustomizedViews.LocalizedRelativeLayout>
+
+            <com.soa.bhc.CustomizedViews.LocalizedRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/shipping_vat"
+                    android:textColor="@color/gray_for_suggession" />
+
+                <TextView
+                    android:id="@+id/textview_shipping_vat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/gray_for_suggession" />
+            </com.soa.bhc.CustomizedViews.LocalizedRelativeLayout>
+
+            <com.soa.bhc.CustomizedViews.LocalizedRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/total"
+                    android:textColor="@color/gray_for_suggession" />
+
+                <TextView
+                    android:id="@+id/textview_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/gray_for_suggession" />
+            </com.soa.bhc.CustomizedViews.LocalizedRelativeLayout>
+
+            <View
+                android:id="@+id/brand_color_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#00f" />
+
+            <Button
+                android:id="@+id/button_pay"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="#0f0"
+                android:gravity="center"
+                android:text="@string/shipping_pay"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.soa.bhc.CustomizedViews.LocalizedLinearLayout>
+    </ScrollView>
+
+</LinearLayout>

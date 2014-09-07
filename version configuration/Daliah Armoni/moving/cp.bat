@@ -1,0 +1,5 @@
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\Daliah Armoni\moving\drawable-hdpi\" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-hdpi\"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\Daliah Armoni\moving\drawable-mdpi\" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-mdpi\"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\Daliah Armoni\moving\drawable-xhdpi\" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-xhdpi\"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\Daliah Armoni\moving\drawable-xxhdpi\" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-xxhdpi\"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\Daliah Armoni\moving\assets\" "C:\Projects\AndroidMaster\AndroidMaster\Master\assets\"

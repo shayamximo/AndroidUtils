@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="price">מחיר</string>
+    <string name="sku">מק\"ט</string>
+    <string name="total">סה\"כ:</string>
+    <string name="total_order">סה\"כ הזמנה:</string>
+    <string name="suggestion">מומלצים עבורך:</string>
+    <string name="bag">הוסף לסל הקניות</string>
+    <string name="more_details">לפרטים נוספים +</string>
+    <string name="checkout">המשך לתשלום</string>
+    <string name="continue_shopping">המשך לקנות</string>
+    <string name="mybag_message">הפריט הוסף בהצלחה לסל הקניות שלך</string>
+    <string name="mybag">סל קניות</string>
+    <string name="edit">עריכה</string>
+    <string name="finish">סיים</string>
+    <string name="facebook">פייסבוק</string>
+    <string name="offer_note">הטבות מפתיעות בקרוב!</string>
+    <string name="sch_hint_text">הוסף מילות חיפוש...</string>
+    <string name="or_search_by_">או חפש ע\"י:</string>
+    <string name="call_store">התקשר לחנות</string>
+    <string name="navigate_to_store">נווט אל החנות</string>
+    <string name="share">שיתוף</string>
+    <string name="cancel">בטל</string>
+    <string name="to_payment">לתשלום</string>
+    <string name="shipping_info_">פרטי משלוח:</string>
+    <string name="state">מדינה</string>
+    <string name="billing_info_">פרטי חיוב:</string>
+    <string name="phonenumber">מספר טלפון</string>
+    <string name="zipcode">מיקוד</string>
+    <string name="lastname">שם משפחה</string>
+    <string name="firstname">שם פרטיים</string>
+    <string name="contact_info">פרטים ליצירת קשר:</string>
+    <string name="customer_details">פרטי מזמין:</string>
+    <string name="first_name_with_star">* שם פרטי</string>
+    <string name="last_name_with_star">* שם משפחה</string>
+    <string name="email_with_star">* אימייל</string>
+    <string name="street_with_star">* רחוב</string>
+    <string name="city_with_star">* עיר</string>
+    <string name="phone_with_star">* טלפון</string>
+    <string name="zip"> מיקוד</string>
+    <string name="order_details"> פרטי משלוח</string>
+    <string name="sum_of_order"> סך הכל הזמנה:</string>
+    <string name="confirm_sms_and_email"> הנני מאשר/ת קבלת SMS ודיוור אלקטרוני</string>
+    <string name="insert_different_address_for_delivery">הזן כתובת שונה למשלוח</string>
+    <string name="address_for_delivery">כתובת למשלוח:</string>
+    <string name="insert_different_address_for_payment">הזן כתובת אחרת עבור אמצעי תשלום</string>
+    <string name="address_for_payment">פרטי חיוב:</string>
+    <string name="continue_in_payment">המשך</string>
+    <string name="email_incorrect">אנא הכנס שדה אימייל תקין</string>
+    <string name="shipping_details"> פרטי משלוח</string>
+    <string name="shipping_method"> בחר אופן משלוח:</string>
+    <string name="shipping_choose_branch"> בחר\י סניף לאיסוף עצמי</string>
+    <string name="shipping_add_comments"> הוסף הערות משלוח</string>
+    <string name="shipping_gift_wrapping"> אריזת מתנה</string>
+    <string name="shipping_add_blessing"> הוסף ברכה</string>
+    <string name="shipping_order_summary"> סיכום הזמנה:</string>
+    <string name="shipping_product_cost"> עלות המוצרים</string>
+    <string name="shipping_shipping_cost"> דמי משלוח</string>
+    <string name="shipping_vat"> מע\"מ</string>
+    <string name="shipping_sum"> סה"כ</string>
+    <string name="shipping_pay"> שלם</string>
+    <string name="order_successful"> הזמנה בוצעה בהצלחה!</string>
+    <string name="order_cancelled"> הזמנה בוטלה</string>
+    <string name="stores"> סניפים</string>
+    <string name="store_list">רשימת סניפים</string>
+    <string name="first_name">שם פרטי</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="email">אימייל</string>
+    <string name="street">רחוב</string>
+    <string name="city">עיר</string>
+    <string name="phone">טלפון</string>
+    <string name="store_hours">שעות פתיחה</string>
+    <string name="name">שם</string>
+    <string name="offers">עדכונים</string>
+    <string name="bonuses">הטבות</string>
+    <string name="my_favorites">המועדפים שלי</string>
+    <string name="quantity">כמות:</string>
+    <string name="item_out_of_stock">אזל המלאי</string>
+    <string name="add_to_favorites_message">הפריט הוסף בהצלחה לרשימת המועדפים שלך</string>
+    <string name="distance_from_current_location">מרחק ממקום נוכחי</string>
+    <string name="close">סגור</string>
+    <string name="go_to_favorites">עבור למועדפים</string>
+    <string name="order_now">הזמן עכשיו</string>
+    <string name="wrap_as_gift">ארוז כמתנה</string>
+    <string name="exit_title">יציאה</string>
+    <string name="exit_text">האם ברצונך לצאת מהאפליקציה?</string>
+    <string name="exit">יציאה</string>
+    <string name="info">מידע</string>
+    <string name="rate">דרג</string>
+    <string name="buy_webview">הזמן באתר</string>
+    <string name="buy_call">חייג</string>
+    <string name="search_by_toprated">דירוג</string>
+    <string name="search_by_sale">מבצע</string>
+    <string name="search_by_budget">מחיר</string>
+    <string name="search">חיפוש</string>
+    <string name="choose_range">בחר טווח</string>
+    <string name="incorrect_search_values_message">אנא הכנס ערכי חיפוש תקינים</string>
+    <string name="general_error">ארעה שגיאה</string>
+    <string name="title_search_by_query">חיפוש לפי מילות חיפוש</string>
+    <string name="title_search_by_rating">חיפוש לפי דירוג</string>
+    <string name="title_search_by_sale">חיפוש לפי מבצע</string>
+    <string name="title_search_by_price">חיפוש לפי מחיר</string>
+    <string name="no_items_found_for_search">לא נמצאו מוצרים עבור תוצאות החיפוש</string>
+    <string name="ratings">דירוגים</string>
+    <string name="no_raters">אין דירוגים</string>
+    <string name="loading">טוען ...</string>
+    <string name="my_wish_list">המועדפים שלי</string>
+    <string name="terms">תנאי שימוש</string>
+    <string name="more">עוד</string>
+    <string name="glad_to_get_details">אשמח לקבל פרטים על מוצר זה</string>
+    <string name="select_a">בחר </string>
+    <string name="promotion">הטבה/הנחה</string>
+    <string name="apply">שלח</string>
+    <string name="enter_coupon_code">הכנס קוד קופון</string>
+    <string name="refine">מיין</string>
+    <string name="filter_by_category">מיין לפי קטגוריה</string>
+    <string name="refined_showing">מוין: מראה</string>
+    <string name="prodcuts">מוצרים</string>
+    <string name="sign_up_for_updates_and_benefits">להרשמה לקבלת עדכונים והטבות:</string>
+    <string name="sign_up">הרשמה</string>
+    <string name="registration_successful">תודה, פרטיך נשמרו בהצלחה</string>
+    <string name="order_via_email_subject">אנא צרו איתנו קשר על מנת להשלים את ההזמנה:</string>
+    <string name="add_shipping_comments_hint">הכנס טקסט לכאן</string>
+    <string name="add_gift_comments_hint">הוסף הודעת ברכה</string>
+    
+    <string name="register_first_name">שם פרטי</string>
+    <string name="register_last_name">שם משפחה</string>
+    <string name="register_email">אימייל</string>
+    <string name="register_gender">מין</string>
+    <string name="register_phone_number">טלפון</string>
+    <string name="register_date_of_birth">תאריך לידה</string>
+    <string name="register_street">רחוב</string>
+    <string name="register_city">עיר</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+

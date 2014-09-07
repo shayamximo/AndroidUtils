@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GridViewController params -->
+    <integer name="grid_num_of_cells">3</integer>
+
+</resources>

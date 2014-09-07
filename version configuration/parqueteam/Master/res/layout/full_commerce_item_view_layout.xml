@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/comm_item_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="true"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:id="@+id/comm_item_lin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/comm_item_viewPagerr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/size_of_item_in_pager_in_full_commerce_page"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:id="@+id/dots_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/com_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_dark" />
+
+                <LinearLayout
+                    android:id="@+id/ll_images_of_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/com_iinfo_btn_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_info_btn_fullcommerce" />
+
+                    <ImageView
+                        android:id="@+id/com_iinfo_btn_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_share_btn_fullcommerce" />
+
+                    <ImageView
+                        android:id="@+id/com_iinfo_btn_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_rate_btn_fullcommerce" />
+                </LinearLayout>
+
+                <ViewFlipper
+                    android:id="@+id/com_iinfo_ViewFlipper01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" >
+
+                    <com.parqueteam.CustomizedViews.LocalizedLinearLayout
+                        android:id="@+id/com_iinfo_lin1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="@dimen/info_item_padding"
+                        android:paddingRight="@dimen/info_item_padding"
+                        android:paddingTop="15dp" >
+
+                        <TextView
+                            android:id="@+id/info_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/size_of_description_title_in_full_commerce_page"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/info_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:textColor="@color/gray_dark"
+                            android:textSize="@dimen/size_of_description_information_in_full_commerce_page" />
+
+                        <TextView
+                            android:id="@+id/more_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/gray_for_more"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="@string/more_details"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/size_of_description_more_in_full_commerce_page"
+                            android:textStyle="bold" />
+                    </com.parqueteam.CustomizedViews.LocalizedLinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/com_iinfo_lin2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center" >
+
+                        <Button
+                            android:id="@+id/fb_share_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/selectore_fb_btn" />
+
+                        <Button
+                            android:id="@+id/com_iinfo_btn_twitter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/selectore_twitter_btn"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/email_share_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/selectore_email_btn" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/com_iinfo_lin3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <RatingBar
+                            android:id="@+id/com_iinfo_RatingBar"
+                            style="@style/bludot_rating_bar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:numStars="5"
+                            android:stepSize="1.0" />
+                    </LinearLayout>
+                </ViewFlipper>
+
+                <View
+                    android:id="@+id/com_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/gray_dark" />
+
+                <View
+                    android:id="@+id/view_under_scroll_of_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/bg_thumb_color" />
+
+                <com.parqueteam.CustomizedViews.LocalizedLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/gray_for_more"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="left"
+                        android:text="@string/suggestion"
+                        android:textColor="@color/white" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/other_options_scroller"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="5dp"
+                        android:scrollbars="none" >
+
+                        <LinearLayout
+                            android:id="@+id/mygallery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" />
+                    </HorizontalScrollView>
+                </com.parqueteam.CustomizedViews.LocalizedLinearLayout>
+
+                <View
+                    android:id="@+id/dormant"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/bg_thumb_color" />
+            </LinearLayout>
+        </ScrollView>
+
+        <com.parqueteam.CustomizedViews.LocalizedLinearLayout
+            android:id="@+id/com_iview_lin_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_thumb_color"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/prodcut_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/com_iview_txt_oldprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/com_iview_txt_final_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </com.parqueteam.CustomizedViews.LocalizedLinearLayout>
+
+        <LinearLayout
+            android:id="@+id/com_iview_lin_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_thumb_color"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/buy_bottom_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/view_line"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/textview_of_buy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:text="@string/bag"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_view_buy_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/tabbar_bag_sel" />
+
+                <TextView
+                    android:id="@+id/textview_plus_of_buy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="15dp"
+                    android:text="+"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/app_title_text"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_wish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/selector_wish_btn_fullcommerce" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

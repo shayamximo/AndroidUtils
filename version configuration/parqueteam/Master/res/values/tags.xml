@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="TAG_HSV_IN_ITEM_PAGE" type="id"/>
+    <item name="TAG_HSV_CHOSEN_VARIANT" type="id"/>
+
+</resources>

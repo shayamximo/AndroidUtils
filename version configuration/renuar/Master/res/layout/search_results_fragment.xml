@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <com.renuar.CustomizedViews.LocalizedRelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.praclist.MultipleItemsList"
+        tools:ignore="MergeRootFrame" >
+
+        <ListView
+            android:id="@+id/listview_searchresults"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/white_smoke"
+            android:dividerHeight="1dp"
+            android:scrollingCache="false" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_half_transparacy"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textColor="@color/white" />
+    </com.renuar.CustomizedViews.LocalizedRelativeLayout>
+
+</LinearLayout>

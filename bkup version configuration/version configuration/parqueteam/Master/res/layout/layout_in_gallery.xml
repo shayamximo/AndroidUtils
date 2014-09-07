@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout_of_gallery"
+    android:layout_width="@dimen/width_of_layout_around_image_in_gallery"
+    android:layout_height="@dimen/height_of_layout_around_image_in_gallery"
+    android:gravity="center" >
+
+    <include
+        android:layout_width="@dimen/width_of_image_in_gallery"
+        android:layout_height="@dimen/height_of_image_in_gallery"
+        layout="@layout/loading"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/layout_of_image_view_in_gallery"
+        android:layout_width="@dimen/width_of_image_in_gallery"
+        android:layout_height="@dimen/height_of_image_in_gallery"
+        android:background="@color/transparent" >
+
+        <ImageView
+            android:id="@+id/image_view_in_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/sale_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/sale_icon_small"
+            android:visibility="gone" />
+        
+        <RelativeLayout
+                android:id="@+id/circle_sale_in_gallery"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/circle_status_small"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout_Status"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ring_status_small" >
+
+                    <TextView
+                        android:id="@+id/number_percent_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="6dp"
+                        android:text="10%"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/number_percent_id"
+                        android:layout_centerHorizontal="true"
+                        android:text="OFF"
+                        android:textColor="#fff"
+                        android:textSize="6sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_out_of_stock_message"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/black_half_transparacy"
+            android:gravity="center"
+            android:padding="1dp"
+            android:text="@string/item_out_of_stock"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/item_name_bottom_text"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black_half_transparacy"
+            android:gravity="right"
+            android:padding="2dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

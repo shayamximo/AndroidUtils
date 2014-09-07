@@ -1,0 +1,5 @@
+cp -a assets/. /home/shaya/git/AndroidMaster/Master/assets/
+cp -a drawable-hdpi/* /home/shaya/git/AndroidMaster/Master/res/drawable-hdpi/
+cp -a drawable-xhdpi/* /home/shaya/git/AndroidMaster/Master/res/drawable-xhdpi/
+cp -a drawable-mdpi/* /home/shaya/git/AndroidMaster/Master/res/drawable-mdpi/
+cp -a drawable-xxhdpi/* /home/shaya/git/AndroidMaster/Master/res/drawable-xxhdpi/

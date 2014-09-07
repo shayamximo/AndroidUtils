@@ -1,0 +1,26 @@
+*) run the script for the instance (the bare minumum is icon images)
+*) configure configuration file in assets file
+*)   <string name="app_name">SOHO</string> in strings file
+*) minsdkversion =11 AND CHECK NO WARNINGS USING (Android tools -> lint thing)
+5. google maps api key need to change to the one suitable for release mode.(https://code.google.com/apis/console/b/0/?noredirect#project:586725266671)
+*) app_id for facebook
+*) social_icon, in drawables(only if there is socialGrid thing)
+
+
+can't from config
+-----------------------------
+*) configure with or without action bar in manifest (android:theme="@style/NoActionBar")
+*) urban airship keys(only top 4 fields)
+
+in manifest configure version name
+ in manifest configure code name by doing the same as version, just without the dot
+ 
+  the package name needs to be com.soho /com.icat360.zer4u
+ *) CLEAN the project before export!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ PARQUTIM
+ ------------------
+ 1. make background of small images, to transparrent.
+ 
+ LOVE AND PRIDE
+  <string name="app_name">Love &amp; Pride</string>

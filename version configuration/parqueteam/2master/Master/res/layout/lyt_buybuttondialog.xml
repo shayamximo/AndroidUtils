@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buy_llCancel"
+            android:background="@drawable/dialog_1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/buy_tvWebView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/buy_webview"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/orange_for_buy" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/buy_tvCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/buy_call"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/blue_for_buy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buy_llCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/buy_tvCancle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/blue_for_buy" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

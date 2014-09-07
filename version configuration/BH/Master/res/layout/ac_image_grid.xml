@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grid_outer_color"
+            android:gravity="center"
+            android:horizontalSpacing="4dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="@integer/grid_num_of_cells"
+            android:padding="4dip"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="8dip" />
+
+        <TextView
+            android:id="@+id/refine_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_half_transparacy"
+            android:paddingBottom="3dp"
+            android:paddingLeft="28dp"
+            android:paddingRight="18dp"
+            android:paddingTop="3dp"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

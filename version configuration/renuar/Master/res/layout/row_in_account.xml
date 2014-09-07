@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.renuar.CustomizedViews.LocalizedRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_row_in_account"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp" >
+
+    <ImageView
+        android:id="@+id/imageview_row_in_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/textview_row_in_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imageview_row_in_account"
+        android:text="@string/my_wish_list"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</com.renuar.CustomizedViews.LocalizedRelativeLayout>

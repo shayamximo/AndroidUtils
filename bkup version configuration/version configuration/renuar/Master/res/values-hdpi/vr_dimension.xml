@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="big_buy_btn_padding">10dp</dimen>
+    <dimen name="small_buy_btn_padding">4dp</dimen>
+    <dimen name="Home1_WatchVideo_padding">35dp</dimen>
+    <dimen name="Home2_WatchVideo_padding">25dp</dimen>
+    <dimen name="info_item_padding">10dp</dimen>
+    <dimen name="tab_height">50dp</dimen>
+    <dimen name="tab_seperator_height">8dp</dimen>
+    <dimen name="three_columns_grid_dimen">90dp</dimen>
+
+</resources>

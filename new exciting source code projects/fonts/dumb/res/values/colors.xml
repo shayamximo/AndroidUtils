@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2012 Muhammad Tayyab Akram <dear_tayyab@yahoo.com>
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_quarter_transparacy">#40FFFFFF</color>
+    <color name="black_quarter_transparacy">#40000000</color>
+    <color name="black_half_transparacy">#7c000000</color>
+    <color name="black_full_transparacy">#00000000</color>
+    <color name="tab_line">#60FFFFFF</color>
+    <color name="tab_transparent_highlight">#28FFFFFF</color>
+    <color name="tab_transparent_dark">#16FFFFFF</color>
+    <color name="tab_transparent_light">#38FFFFFF</color>
+    <color name="grid_outer_color">#faf9f9</color>
+    <color name="grid_cell_price_original_color">#708090</color>
+    <color name="grid_cell_price_sale_color">#FF0000</color>
+    <color name="view_line">#ed145b</color>
+    <color name="bg_thumb_color">#99000000</color>
+    <color name="sch_buget_color">#707173</color>
+    <color name="store_info_color">#919191</color>
+    <color name="signup_text_color">#ff005d</color>
+    <color name="home_23_tab_color">#EBF2F3</color>
+    <color name="home_1_tab_color">#949494</color>
+    <!-- <color name="look_txt_bg_color">#55000000</color> -->
+    <color name="red">#FF0000</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="linerbg">#55000000</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="gray_for_suggession">#999999</color>
+    <color name="gray_for_more">#aaaaaa</color>
+    <color name="gray_lyt_country">#e0e0e0</color>
+    <color name="white_for_tobbar">#f2f2f2</color>
+    <color name="gray_for_divider">#DCDCDC</color>
+    <color name="gray_dark">#A0A0A0</color>
+    <color name="gray_for_tabs_unselected">#8b8682</color>
+    <color name="facebook_background">#3b5998</color>
+    <color name="white_smoke">#f5f5f5</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange_for_buy">#fd472b</color>
+    <color name="blue_for_buy">#007aff</color>
+    <color name="tab_background_color">#eeeee0</color>
+
+</resources>

@@ -1,0 +1,4 @@
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\loveandpride images\drawable-hdpi\icon.png" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-hdpi\icon.png"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\loveandpride images\drawable-mdpi\icon.png" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-mdpi\icon.png"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\loveandpride images\drawable-xhdpi\icon.png" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-xhdpi\icon.png"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\loveandpride images\drawable-xxhdpi\icon.png" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-xxhdpi\icon.png"

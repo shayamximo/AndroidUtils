@@ -1,0 +1,6 @@
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\btu\drawable-hdpi\" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-hdpi\"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\btu\drawable-mdpi\" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-mdpi\"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\btu\drawable-xhdpi\" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-xhdpi\"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\btu\drawable-xxhdpi\" "C:\Projects\AndroidMaster\AndroidMaster\Master\res\drawable-xxhdpi\"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\btu\assets" "C:\Projects\AndroidMaster\AndroidMaster\Master\assets"
+copy "C:\Users\Shaya\Google Drive\mximo\temp\version configuration\btu\AndroidManifest.xml" "C:\Projects\AndroidMaster\AndroidMaster\Master"

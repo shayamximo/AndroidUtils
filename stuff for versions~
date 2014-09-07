@@ -1,0 +1,11 @@
+* -> create a key
+keytool -genkey -v -keystore d:\my_private_key.keystore -alias my_key_alias -keyalg RSA -keysize 2048 -validity 10000
+
+* -> get key hash for facebook
+keytool -exportcert -alias /home/shaya/Desktop/temp/version\ configuration/MximoView/anddev-3.keystore -keystore /home/shaya/Desktop/temp/version\ configuration/MximoView/anddev-3.keystore | openssl sha1 -binary | openssl base64
+
+*-> link to google key generation for maps:
+
+https://code.google.com/apis/console/b/0/?noredirect#project:586725266671
+
+
